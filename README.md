@@ -1,2 +1,2 @@
 # Calculator
-basic JavaScript  calculator 
+basic JavaScript  calculator ,code practice for students.

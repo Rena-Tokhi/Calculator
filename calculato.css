@@ -27,12 +27,8 @@ body{
 	font-size: 45pt;
 	overflow-y: auto;
 	text-align: right;
-	height: 150px;
-}
-.container .buttons{
-	display: grid;
-	grid-template-columns: repeat( 4 ,1fr);
-	grid-gap:1em;
+	height: 135px;
+    width: 233px;
 }
 .container .buttons .button , .container .buttons .num-buttion{
 	cursor: grab;
@@ -44,10 +40,25 @@ body{
 	border-radius: 50%;
 	box-shadow: 8px 8px 13px #cacaca, -8px -8px 13px #ffffff;
 }
+.num-buttion{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: rgb(66, 66,66);
+}
 
+.action-btn{
+	color: gray;
+	font-weight: bold;
+	font-size: 1rem;
+}
+.calc-action-btn{
+	color: rgb(255,165,0);
+	font-weight: bold;
+	font-size: 1rem;
+}
 .textview{
-	width: 205px;
 	margin: 5px;
-	font-size: 25px;
 	padding: 5px;
+	border: solid 2px gray;
+	border-radius: 28px;
 }

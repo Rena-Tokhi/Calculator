@@ -16,7 +16,6 @@ body{
 	margin: 40px auto;
 	padding: 32px 16px;
 	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 .container .result{
@@ -25,7 +24,6 @@ body{
 }
 .container .result input{
 	font-size: 45pt;
-	overflow-y: auto;
 	text-align: right;
 	height: 135px;
     width: 233px;
